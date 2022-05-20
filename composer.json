@@ -1,5 +1,5 @@
 {
-    "name": "asm89/stack-cors",
+    "name": "gfacility/stack-cors",
     "description": "Cross-origin resource sharing library and stack middleware",
     "keywords": ["stack", "cors"],
     "homepage": "https://github.com/asm89/stack-cors",
