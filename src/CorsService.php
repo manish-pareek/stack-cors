@@ -18,12 +18,12 @@ class CorsService
 {
     private $options;
 
-    public function __construct(array $options)
+    public function __construct(array $options = [])
     {
         $this->options = $this->normalizeOptions($options);
     }
 
-    private function normalizeOptions(array $options): array
+    private function normalizeOptions(array $options = []): array
     {
         $options += [
             'allowedOrigins' => [],
